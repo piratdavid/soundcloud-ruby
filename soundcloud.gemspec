@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name        = 'soundcloud'
   spec.version     = SoundCloud::VERSION
   spec.platform    = Gem::Platform::RUBY
-  spec.authors     = ["Johannes Wagener", "Erik Michaels-Ober"]
+  spec.authors     = ["Johannes Wagener", "Erik Michaels-Ober", "David Smallbone Tizard"]
   spec.email       = ["api@soundcloud.com"]
   spec.homepage    = 'http://dev.soundcloud.com'
   spec.summary     = "The official SoundCloud API wrapper."
@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.required_rubygems_version = '>= 1.3.5'
 
   spec.add_dependency('httmultiparty', '~> 0.3.0')
-  spec.add_dependency('hashie', '~> 2.0')
+  spec.add_dependency('hashie', '> 2.0')
 
   spec.add_development_dependency('bundler', '~> 1.0')
 
